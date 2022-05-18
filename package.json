@@ -1,0 +1,49 @@
+{
+  "name": "twoamvc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.4.5",
+    "axios": "^0.26.1",
+    "formik": "^2.2.9",
+    "hex-to-rgba": "^2.0.1",
+    "markdown-to-jsx": "^7.1.7",
+    "next": "12.1.4",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.8.4",
+    "next-sitemap": "^2.5.20",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-intl": "^5.24.8",
+    "react-modal": "^3.14.4",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
+    "styled-system": "^5.1.5",
+    "translations": "^2.2.1",
+    "yarn": "^1.22.18",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/react": "^6.4.22",
+    "@storybook/testing-library": "^0.0.11",
+    "babel-loader": "^8.2.5",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4",
+    "eslint-plugin-storybook": "^0.5.12"
+  }
+}
